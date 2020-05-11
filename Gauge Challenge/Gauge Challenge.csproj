@@ -98,9 +98,20 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Resource Include="Resources\BebasNeue.otf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Resources\Needle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\uxlogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

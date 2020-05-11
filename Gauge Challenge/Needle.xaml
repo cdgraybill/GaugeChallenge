@@ -7,18 +7,14 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="600">
     <Grid>
-        <Ellipse x:Name="background"
-                Grid.Row="3" 
-                Grid.Column="4" 
+        <Ellipse x:Name="background" 
                 Canvas.Top="50"
                 Canvas.Left="50"
                 Fill="Black"
                 Height="200"
                 Width="200"/>
 
-        <Ellipse x:Name="middleCircle"
-                Grid.Row="3" 
-                Grid.Column="4" 
+        <Ellipse x:Name="middleCircle" 
                 Canvas.Top="50"
                 Canvas.Left="50"
                 Fill="#FF1A1A1A"
@@ -26,9 +22,7 @@
                 Width="70"
                  Margin="0,0,0,0"/>
 
-        <Ellipse x:Name="centerCircle"
-                Grid.Row="3" 
-                Grid.Column="4" 
+        <Ellipse x:Name="centerCircle" 
                 Canvas.Top="50"
                 Canvas.Left="50"
                 Height="40"
@@ -42,22 +36,16 @@
             </Ellipse.Fill>
         </Ellipse>
 
-        <Image Grid.Row="3" 
-               Grid.Column="4" 
-               Grid.RowSpan="6" 
-               Source="C:\Users\Cam\Desktop\Gauge Coding Challenge\ring.png" 
+        <Image Source="resources\ring.png" 
                Height="237" 
                Width="237"/>
 
-        <Image Grid.Row="3" 
-               Grid.Column="4" 
-               Grid.RowSpan="6" 
-               Source="C:\Users\Cam\Desktop\Gauge Coding Challenge\uxlogo.png"
+        <Image Source="resources\uxlogo.png"
                Height="30" 
                Width="30"
                Margin="0 150 0 0"/>
 
-        <Image Source="C:\Users\Cam\Desktop\Gauge Coding Challenge\needle.png" 
+        <Image Source="resources\needle.png" 
                Height="177" 
                Width="12"
                RenderTransformOrigin="0.5 0.5"
